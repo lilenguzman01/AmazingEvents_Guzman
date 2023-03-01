@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100vw;
+    height: 100vh;
+    background-color: #ffbeae;
+}
+
+/*-------css header-------*/
+header {
+    background-color: #ff9e8e;
+}
+
+.navCompleta {
+    min-width: 100vw;
+}
+
+.barraNav {
+    display: flex;
+    justify-content: right;
+}
+
+.barraNav a {
+    margin-right: 3px;
+    border: .1rem solid rgb(221, 95, 95);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    background-color: rgb(211, 133, 100);
+    color: rgb(24, 21, 18);
+}
+
+.logo {
+    width: 300px;
+    margin-right: 10vw;
+}
+
+/*-------css main-------*/
+main {
+    height: 80vh;
+
+}
+
+/*css carousel*/
+.carouselExample {
+    width: 100vw;
+    height: 40vh;
+}
+
+.d-block {
+    width: 100vw;
+    height: 30vh;
+    min-height: 250px;
+    object-fit: cover;
+    object-position: 70%;
+}
+
+/*container*/
+/* .container {
+    display: flex;
+} */
+
+/*checkbox*/
+/* .form-check {
+    margin-left: 2rem;
+} */
+
+/*buscador*/
+.search1 {}
+
+/*-------media queries-------*/
+@media only screen and (max-width: 300px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 100px) {
+    .logo {
+        width: 50px;
+    }
+}
