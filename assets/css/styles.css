@@ -60,17 +60,10 @@ main {
 }
 
 /*container*/
-/* .container {
-    display: flex;
-} */
+.container {
+    margin-top: .5rem;
+}
 
-/*checkbox*/
-/* .form-check {
-    margin-left: 2rem;
-} */
-
-/*buscador*/
-.search1 {}
 
 /*-------media queries-------*/
 @media only screen and (max-width: 300px) {
