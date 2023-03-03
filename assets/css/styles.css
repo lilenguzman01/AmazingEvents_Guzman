@@ -4,18 +4,20 @@
 }
 
 body {
-    min-width: 100vw;
+    width: 100vw;
     height: 100vh;
-    background-color: #ffbeae;
+    background-color: #76f00c;
 }
 
 /*-------css header-------*/
 header {
     background-color: #ff9e8e;
+    max-width: 90vw;
 }
 
 .navCompleta {
-    min-width: 100vw;
+    max-width: 100vw;
+    padding: 0;
 }
 
 .barraNav {
@@ -47,7 +49,7 @@ main {
 
 /*css carousel*/
 .carouselExample {
-    width: 100vw;
+    max-width: 100vw;
     height: 40vh;
 }
 
@@ -61,10 +63,19 @@ main {
 
 /*container*/
 .container {
-    margin-top: .5rem;
+    /* margin-top: .5rem; */
+    /* max-width: 100vw; */
+    /* padding: 0; */
+    /* margin-left: 0;
+    margin-right: 0; */
 }
-
-
+.container-fluid{
+    max-width: 90vw;
+    padding: 0;
+}
+.col-lg-4{
+    padding: 0;
+}
 /*-------media queries-------*/
 @media only screen and (max-width: 300px) {
     .logo {
