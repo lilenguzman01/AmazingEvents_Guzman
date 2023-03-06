@@ -29,9 +29,10 @@ header {
 }
 
 /*-------css main-------*/
-main{
+main {
     padding-bottom: 2rem;
 }
+
 .carouselExample {
     max-width: 90vw;
     height: 40vh;
